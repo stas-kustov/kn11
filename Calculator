@@ -1,0 +1,9 @@
+    a = int(input("1st number"))
+    b = int(input("2nd number"))
+    print("Result of + equals", a+b)
+    print("Result of - equals", a-b)
+    print("Result of * equals", a*b)
+    if b!=0:
+        print("Result of / equals", a/b)
+    else:
+        print("can't divide by 0")
