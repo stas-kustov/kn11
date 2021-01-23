@@ -1,0 +1,3 @@
+while True:
+    str=input("Введите сосиску")
+    print(str[::-1])
