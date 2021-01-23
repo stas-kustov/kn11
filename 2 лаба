@@ -1,0 +1,10 @@
+a = str(input('Введіть текст: '))
+c = str(input('Введіть a чи b: '))
+if c == ('b'):
+    d = {}
+    for x in set(a):
+        d[x] = a.count(x)
+    print(d)
+if c == ('a'):
+    a = sorted(a.split())
+    print(a)
